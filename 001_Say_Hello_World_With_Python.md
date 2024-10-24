@@ -1,4 +1,4 @@
-# 001 - Say "Hello, World!" With Python
+# Say "Hello, World!" With Python
 ## Problem
 
 Here is a sample line of code that can be executed in Python:
@@ -29,7 +29,6 @@ Print `Hello, World!` to stdout.
 ```
 Hello, World!
 ```
-
 ---
 
 ## Solution
