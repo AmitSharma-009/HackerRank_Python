@@ -58,51 +58,16 @@ if __name__ == '__main__':
 if __name__ == '__main__':
     n = int(input())
     arr = list(map(int, input().split()))
-    mx = max(arr)
-    sc = None
+    max = max(arr)
+    a = None
 
     for num in arr:
-        if num == mx:
+        if num == max:
             pass
-        elif sc == None:
-            sc = num
-        elif num > sc:
-            sc = num
+        elif a == None:
+            a = num
+        elif num > a:
+            a = num
 
-    print(sc)
-```
-
-
-
-## Solution 3
-
-```python
-if __name__ == '__main__':
-    n = int(input())
-    arr = map(int, input().split())
-
-    lst = list(arr)
-    scores = list()
-
-    for score in lst:
-        if score not in scores:
-            scores.append(score)
-        else :
-            continue
-    ordr = sorted(scores, reverse=True)
-    print(ordr[1])
-```
-
-
-
-## Solution 4
-
-```
-def remove_n(list, n):
-    new_arr = [num for num in list if num != n]
-    return new_arr
-
-arr = list(arr)
-new_arr = remove_n(arr, max(arr))
-print(max(new_arr))
+    print(a)
 ```
