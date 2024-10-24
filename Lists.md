@@ -1,4 +1,4 @@
-# 012 - Lists
+# Lists
 ## Problem
 
 Consider a list (`list = []`). You can perform the following commands:
@@ -72,10 +72,10 @@ if __name__ == '__main__':
 
 ```python
 if __name__ == '__main__':
-    N = int(input())
+    a = int(input())
     the_list = list()
 
-    for _ in range(N):
+    for _ in range(a):
         query = input().split()
         if query[0] == "print":
             print(the_list)
